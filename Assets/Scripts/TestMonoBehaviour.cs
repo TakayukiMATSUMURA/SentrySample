@@ -17,9 +17,11 @@ public class TestMonoBehaviour : MonoBehaviour
 
     public void OnClickErrorButton()
     {
+        Debug.LogError("Error");
     }
 
     public void OnClickExceptionButton()
     {
+        throw new System.Exception("Exception");
     }
 }
