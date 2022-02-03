@@ -15,18 +15,11 @@ public class TestMonoBehaviour : MonoBehaviour
         //testObject.GetComponent<Transform>();   // Captured error
     }
 
-    public void OnClickWarningButton()
-    {
-        Debug.LogWarning("Warning");
-    }
-
     public void OnClickErrorButton()
     {
-        Debug.LogError("Error");
     }
 
     public void OnClickExceptionButton()
     {
-        throw new System.Exception("Exception");
     }
 }
